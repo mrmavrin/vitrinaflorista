@@ -1,0 +1,772 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Витрина цветочного магазина в Telegram без комиссии — Vitrina Florista для флористов</title>
+<meta name="description" content="Онлайн-витрина цветочного магазина в Telegram: каталог букетов, доставка, оплата напрямую на ваш счёт, фото-согласование и статусы заказа. Без разработки сайта и без комиссии с продаж.">
+<link rel="canonical" href="https://vitrinaflorista.com/florist">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta name="theme-color" content="#10261f">
+<link rel="icon" href="/vf-favicon.svg" type="image/svg+xml">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="ru_RU">
+<meta property="og:site_name" content="Vitrina Florista">
+<meta property="og:title" content="Витрина цветочного магазина в Telegram — Vitrina Florista">
+<meta property="og:description" content="Пока вы собираете букеты, клиенты сами оформляют и оплачивают заказы. Оплата напрямую на ваш счёт, без комиссии платформы.">
+<meta property="og:url" content="https://vitrinaflorista.com/florist">
+<meta property="og:image" content="https://vitrinaflorista.com/og-vitrina-florista-florist.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Витрина цветочного магазина в Telegram — Vitrina Florista">
+<meta name="twitter:description" content="Каталог, доставка, оплата на ваш счёт, фото-согласование и статусы заказа — в одной витрине в Telegram.">
+<meta name="twitter:image" content="https://vitrinaflorista.com/og-vitrina-florista-florist.png">
+<link rel="preload" href="/fonts/vf-serif-400.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/fonts/vf-sans-400.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/img/florist/01-florist-za-stolom.svg" as="image">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://vitrinaflorista.com/#org",
+      "name": "Vitrina Florista",
+      "url": "https://vitrinaflorista.com",
+      "logo": "https://vitrinaflorista.com/vf-favicon.svg",
+      "areaServed": ["RU", "Страны СНГ"],
+      "contactPoint": {"@type": "ContactPoint", "contactType": "customer support", "url": "https://t.me/vitrinaflorista_help", "availableLanguage": ["ru"]}
+    },
+    {
+      "@type": "SoftwareApplication",
+      "@id": "https://vitrinaflorista.com/florist#app",
+      "name": "Vitrina Florista",
+      "applicationCategory": "BusinessApplication",
+      "applicationSubCategory": "Онлайн-витрина и приём заказов для цветочного магазина",
+      "operatingSystem": "Telegram (iOS, Android, Windows, macOS)",
+      "url": "https://vitrinaflorista.com/florist",
+      "description": "Витрина цветочного магазина в Telegram: каталог букетов, доставка по адресу, оплата напрямую на счёт магазина, фото-согласование букета и статусы заказа для покупателя и флориста.",
+      "featureList": ["Каталог букетов с фото и ценами", "Расчёт доставки по адресу и зонам", "Оплата картой или СБП напрямую на счёт магазина", "Текст открытки и заметка курьеру", "Фото-согласование готового букета", "Статусы заказа и уведомления в Telegram", "QR-код и ссылка на витрину"],
+      "publisher": {"@id": "https://vitrinaflorista.com/#org"}
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://vitrinaflorista.com/florist#page",
+      "url": "https://vitrinaflorista.com/florist",
+      "name": "Витрина цветочного магазина в Telegram без комиссии — Vitrina Florista для флористов",
+      "inLanguage": "ru-RU",
+      "about": {"@id": "https://vitrinaflorista.com/florist#app"},
+      "primaryImageOfPage": "https://vitrinaflorista.com/og-vitrina-florista-florist.png",
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {"@type": "ListItem", "position": 1, "name": "Vitrina Florista", "item": "https://vitrinaflorista.com/"},
+          {"@type": "ListItem", "position": 2, "name": "Флористу", "item": "https://vitrinaflorista.com/florist"}
+        ]
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://vitrinaflorista.com/florist#faq",
+      "mainEntity": [
+        {"@type": "Question", "name": "Нужен ли покупателю Telegram?", "acceptedAnswer": {"@type": "Answer", "text": "Да. Витрина работает внутри Telegram: покупатель открывает её по ссылке и через Telegram получает статусы заказа. Скачивать отдельное приложение не нужно."}},
+        {"@type": "Question", "name": "А если моим клиентам проще написать в WhatsApp?", "acceptedAnswer": {"@type": "Answer", "text": "Переписка остаётся. Ссылку на витрину можно отправить в том же диалоге тем, кто хочет выбрать и оплатить букет сам, без уточняющих вопросов."}},
+        {"@type": "Question", "name": "Вы приводите новых покупателей?", "acceptedAnswer": {"@type": "Answer", "text": "Нет. Vitrina Florista — не маркетплейс. Она помогает обслуживать покупателей, которых магазин привлекает сам: через соцсети, карты, рекомендации и офлайн."}},
+        {"@type": "Question", "name": "Куда поступают деньги?", "acceptedAnswer": {"@type": "Answer", "text": "Напрямую на расчётный счёт магазина через ваш эквайринг. Банк берёт комиссию по вашему договору, платформа — нет: она работает по подписке."}},
+        {"@type": "Question", "name": "Кто загружает букеты?", "acceptedAnswer": {"@type": "Answer", "text": "При подключении помогаем внести базовый ассортимент. Дальше новые букеты добавляются со смартфона прямо в Telegram."}},
+        {"@type": "Question", "name": "Можно ли указать время доставки?", "acceptedAnswer": {"@type": "Answer", "text": "Покупатель пишет пожелание ко времени в заметке курьеру, и флорист видит его в карточке заказа."}},
+        {"@type": "Question", "name": "Если у нас несколько флористов?", "acceptedAnswer": {"@type": "Answer", "text": "Заказы находятся в общей рабочей очереди. Видно, какой заказ новый, какой уже в работе, на каком он этапе и кто с ним работает."}},
+        {"@type": "Question", "name": "Как работает QR-код?", "acceptedAnswer": {"@type": "Answer", "text": "QR-код ведёт прямо в витрину вашего магазина. Его можно разместить на карточке к букету, упаковке, визитке или кассе. Человек сканирует код, открывает витрину и сохраняет простой путь к вам на следующий повод."}},
+        {"@type": "Question", "name": "А если букет получил не тот, кто его заказывал?", "acceptedAnswer": {"@type": "Answer", "text": "Получатель тоже может открыть вашу витрину по QR-коду на открытке или упаковке. Так каждый хороший букет знакомит с вашим магазином ещё одного человека."}},
+        {"@type": "Question", "name": "Что нужно от меня для подключения?", "acceptedAnswer": {"@type": "Answer", "text": "Данные магазина, ассортимент, фотографии и цены. Для приёма оплаты подключается банковская оплата вашего магазина. После настройки у вас появляется собственная витрина и рабочее место для заказов."}},
+        {"@type": "Question", "name": "Сколько стоит Vitrina Florista?", "acceptedAnswer": {"@type": "Answer", "text": "Платформа работает по подписке и не берёт процент с продаж. Актуальные тарифы расскажем в Telegram: @vitrinaflorista_help."}}
+      ]
+    }
+  ]
+}
+</script>
+
+<style>
+@font-face{font-family:"VF Sans";src:url(/fonts/vf-sans-400.woff) format("woff");font-weight:400;font-style:normal;font-display:swap}
+@font-face{font-family:"VF Sans";src:url(/fonts/vf-sans-400-italic.woff) format("woff");font-weight:400;font-style:italic;font-display:swap}
+@font-face{font-family:"VF Sans";src:url(/fonts/vf-sans-700.woff) format("woff");font-weight:700;font-style:normal;font-display:swap}
+@font-face{font-family:"VF Serif";src:url(/fonts/vf-serif-400.woff) format("woff");font-weight:400;font-style:normal;font-display:swap}
+@font-face{font-family:"VF Serif";src:url(/fonts/vf-serif-400-italic.woff) format("woff");font-weight:400;font-style:italic;font-display:swap}
+@font-face{font-family:"VF Serif";src:url(/fonts/vf-serif-700.woff) format("woff");font-weight:700;font-style:normal;font-display:swap}
+@font-face{font-family:"VF Hand";src:url(/fonts/vf-hand-400.woff) format("woff");font-weight:400;font-style:normal;font-display:swap}
+
+:root{
+  --ink-deep:#10261f; --ink:#18372c; --ink-soft:#62746b; --line:#18372c29;
+  --paper:#f3f0e7; --paper-deep:#e8e3d7; --cream:#fffdf7;
+  --coral:#e5775b; --coral-light:#f5a38f; --mustard:#daa03a; --leaf:#3f6b52;
+  --serif:"VF Serif",Georgia,"Times New Roman",serif;
+  --sans:"VF Sans","Segoe UI",system-ui,-apple-system,sans-serif;
+  --hand:"VF Hand","Segoe Print","Comic Sans MS",cursive;
+  --wrap:1180px; --r:26px;
+  box-sizing:border-box;
+  padding-top:env(safe-area-inset-top,0px);
+}
+*,*::before,*::after{box-sizing:inherit}
+html{scroll-behavior:smooth;scroll-padding-top:calc(76px + env(safe-area-inset-top,0px));-webkit-text-size-adjust:100%}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important;animation:none!important}}
+body{margin:0;background:var(--paper);color:var(--ink);font:400 17px/1.6 var(--sans);overflow-x:hidden}
+img{max-width:100%;height:auto;display:block}
+a{color:inherit}
+h1,h2,h3{font-family:var(--serif);font-weight:400;line-height:1.08;margin:0;letter-spacing:-.01em}
+h1{font-size:clamp(38px,5vw,64px)}
+h2{font-size:clamp(30px,4vw,50px);max-width:22ch}
+h3{font-size:clamp(22px,2.2vw,27px);line-height:1.2}
+p{margin:0}
+:focus-visible{outline:3px solid var(--coral);outline-offset:3px;border-radius:6px}
+.wrap{width:min(var(--wrap),100% - 40px);margin-inline:auto}
+.note{font-family:var(--hand);color:var(--coral);font-size:26px;line-height:1.1;display:block;margin-bottom:14px;transform:rotate(-1.5deg);transform-origin:left}
+.lead{font-size:clamp(17px,1.6vw,20px);color:var(--ink-soft);max-width:58ch;margin-top:20px}
+.dark{background:var(--ink-deep);color:var(--cream)}
+.dark .lead{color:#c9d3cd}
+.dark .note{color:var(--coral-light)}
+section{padding:clamp(72px,9vw,120px) 0}
+.skip{position:absolute;left:-999px;top:8px;background:var(--cream);padding:8px 14px;border-radius:10px;z-index:100}
+.skip:focus{left:12px}
+
+/* buttons */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:54px;padding:0 28px;border-radius:999px;font:700 16px/1 var(--sans);text-decoration:none;border:1.5px solid transparent;cursor:pointer;transition:background .15s,color .15s}
+.btn-coral{background:var(--coral);color:var(--ink-deep)}
+.btn-coral:hover{background:var(--coral-light)}
+.btn-light{background:var(--cream);color:var(--ink-deep)}
+.btn-light:hover{background:#fff}
+.btn-ghost{border-color:#fffdf766;color:var(--cream)}
+.btn-ghost:hover{background:#fffdf714}
+.btn-ink{background:var(--ink);color:var(--cream)}
+.btn-ink:hover{background:var(--ink-deep)}
+.btn svg{width:18px;height:18px;flex:none}
+.actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:34px}
+
+/* header */
+.top{position:sticky;top:0;z-index:50;background:var(--ink-deep);color:var(--cream);border-bottom:1px solid #fffdf71f;padding-top:env(safe-area-inset-top,0px);margin-top:calc(-1 * env(safe-area-inset-top,0px))}
+.top .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:76px}
+.logo{display:flex;align-items:center;gap:12px;text-decoration:none;font:700 12px/1.15 var(--sans);letter-spacing:.08em}
+.logo i{font:400 15px/1 var(--serif);font-style:normal;width:38px;height:38px;border:1.5px solid var(--cream);border-radius:50%;display:grid;place-items:center;letter-spacing:0}
+.tabs{display:flex;padding:4px;border-radius:999px;background:#fffdf71a;border:1px solid #fffdf726}
+.tabs a{padding:10px 18px;border-radius:999px;font-weight:700;font-size:14px;text-decoration:none;color:#c9d3cd;white-space:nowrap}
+.tabs a[aria-current]{background:var(--cream);color:var(--ink-deep)}
+.top .btn{min-height:44px;padding:0 20px;font-size:14px}
+@media (max-width:820px){.top .btn{display:none}}
+@media (max-width:420px){.logo span{display:none}.tabs a{padding:9px 14px}}
+
+/* hero */
+.hero{padding:clamp(48px,7vw,96px) 0 clamp(64px,8vw,110px)}
+.hero-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:clamp(32px,5vw,72px);align-items:center}
+.hero h1{max-width:15ch}
+.hero .fine{margin-top:22px;font-size:14px;color:#9fb0a7;max-width:46ch}
+.hero-art{position:relative;padding-bottom:40px}
+.hero-art .photo{border-radius:var(--r);overflow:hidden;width:78%;margin-left:auto;box-shadow:0 30px 60px #0006}
+.phone{background:var(--cream);color:var(--ink);border:8px solid #0b1a15;border-radius:34px;overflow:hidden;box-shadow:0 24px 50px #0005;font-size:13px;line-height:1.35}
+.phone .bar{display:flex;align-items:center;gap:8px;padding:12px 14px;border-bottom:1px solid var(--line);font-weight:700}
+.phone .bar b{width:24px;height:24px;border-radius:50%;background:var(--ink);color:var(--cream);display:grid;place-items:center;font:400 10px var(--serif)}
+.hero-art .phone{position:absolute;left:0;bottom:0;width:min(250px,48%)}
+.prod{padding:12px}
+.prod img{border-radius:16px;background:#f6eee6}
+.prod .name{font:400 20px/1.15 var(--serif);margin-top:10px}
+.prod .comp{color:var(--ink-soft);font-size:12px;margin-top:2px}
+.prod .row{display:flex;justify-content:space-between;align-items:center;margin-top:10px}
+.prod .price{font-weight:700;font-size:16px}
+.pill{display:inline-flex;align-items:center;padding:7px 12px;border-radius:999px;background:var(--coral);color:var(--ink-deep);font-weight:700;font-size:12px}
+@media (max-width:900px){
+  .hero-art .phone{width:min(230px,58%)}
+  .hero-grid{grid-template-columns:1fr}
+  .hero-art{max-width:520px;margin-inline:auto;width:100%}
+}
+
+/* pain: chat */
+.split{display:grid;grid-template-columns:1fr 1fr;gap:clamp(36px,6vw,90px);align-items:center}
+.split .copy p+p{margin-top:16px}
+.split .copy .lead{margin-top:22px}
+@media (max-width:900px){.split{grid-template-columns:1fr}}
+.chat{background:#e4ebe5;border-radius:var(--r);padding:22px;display:flex;flex-direction:column;gap:10px;max-width:470px;margin-inline:auto;width:100%;font-size:15px}
+.msg{max-width:82%;padding:10px 14px;border-radius:18px;line-height:1.4}
+.msg.in{background:#fff;border-bottom-left-radius:6px;align-self:flex-start}
+.msg.out{background:#d7ecd2;border-bottom-right-radius:6px;align-self:flex-end}
+.msg.media{padding:6px;display:grid;grid-template-columns:repeat(3,1fr);gap:4px;width:78%}
+.msg.media img{border-radius:12px}
+.msg.receipt{padding:6px;width:46%}
+.msg.receipt img{border-radius:12px}
+.chat .more{align-self:center;font-family:var(--hand);font-size:22px;color:var(--coral);margin-top:6px}
+
+/* change: before/after */
+.compare{display:grid;grid-template-columns:1fr 1.1fr;gap:28px;margin-top:56px;align-items:start}
+.before{padding:34px;border:1.5px dashed #18372c55;border-radius:var(--r)}
+.before h3{margin-bottom:18px}
+.before li{position:relative;padding-left:30px;margin-top:14px;color:var(--ink-soft)}
+.before li::before{content:"";position:absolute;left:4px;top:.55em;width:12px;height:12px;border:2px solid var(--ink-soft);border-radius:3px;transform:rotate(12deg)}
+ul,ol{list-style:none;margin:0;padding:0}
+.order{background:var(--cream);border-radius:var(--r);box-shadow:0 20px 50px #18372c1f;overflow:hidden}
+.order-head{display:flex;justify-content:space-between;align-items:center;padding:22px 28px;background:var(--ink);color:var(--cream)}
+.order-head h3{font-size:26px}
+.badge{display:inline-flex;align-items:center;gap:6px;padding:6px 12px;border-radius:999px;font-size:13px;font-weight:700}
+.badge.paid{background:#d9ebdd;color:#1f5a3a}
+.badge.work{background:#f6e3bd;color:#7a5512}
+.order dl{margin:0;padding:8px 28px 22px}
+.order dl div{display:grid;grid-template-columns:150px 1fr;gap:16px;padding:13px 0;border-bottom:1px solid var(--line)}
+.order dl div:last-child{border:0}
+.order dt{color:var(--ink-soft);font-size:14px}
+.order dd{margin:0;font-weight:700}
+.order dd.hand{font-family:var(--hand);font-weight:400;font-size:24px;line-height:1.1;color:var(--ink)}
+@media (max-width:900px){.compare{grid-template-columns:1fr}}
+@media (max-width:520px){.order dl div{grid-template-columns:1fr;gap:2px}.order-head,.order dl{padding-inline:20px}}
+
+/* buyer path */
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:22px;margin-top:56px;counter-reset:s}
+.step .phone{border-width:6px;border-radius:28px;min-height:380px;display:flex;flex-direction:column}
+.step h3{font-size:22px;margin-top:22px}
+.step h3::before{counter-increment:s;content:counter(s) ". ";color:var(--coral)}
+.step p{color:var(--ink-soft);font-size:15px;margin-top:6px}
+.grid4{display:grid;grid-template-columns:1fr 1fr;gap:8px;padding:10px}
+.grid4 figure{margin:0}
+.grid4 img{border-radius:10px;aspect-ratio:1;width:100%}
+.grid4 figcaption{font-weight:700;font-size:12px;margin-top:4px}
+.ph-pad{padding:12px;display:flex;flex-direction:column;gap:10px;flex:1}
+.field{background:#f3f0e7;border-radius:10px;padding:8px 10px}
+.field small{display:block;color:var(--ink-soft);font-size:10px}
+.field.hand span{font-family:var(--hand);font-size:17px}
+.seg{display:grid;grid-template-columns:1fr 1fr;background:#f3f0e7;border-radius:10px;padding:3px;font-size:11px;text-align:center;font-weight:700}
+.seg span{padding:6px;border-radius:8px}
+.seg span:first-child{background:var(--ink);color:var(--cream)}
+.sum{display:flex;justify-content:space-between;font-size:13px}
+.sum.total{font-weight:700;border-top:1px solid var(--line);padding-top:8px}
+.cta-mini{margin-top:auto;background:var(--coral);color:var(--ink-deep);border-radius:12px;text-align:center;padding:11px;font-weight:700}
+.done{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:18px;gap:12px}
+.done .ok{width:64px;height:64px;border-radius:50%;background:#d9ebdd;display:grid;place-items:center}
+.done strong{font:400 22px/1.15 var(--serif)}
+.done p{color:var(--ink-soft);font-size:12px}
+@media (max-width:1000px){.steps{grid-template-columns:repeat(2,1fr)}}
+@media (max-width:560px){.steps{grid-template-columns:1fr;max-width:330px;margin-inline:auto}}
+
+/* florist side: statuses */
+.flow{display:flex;flex-wrap:wrap;align-items:center;gap:10px;margin-top:44px}
+.flow span{padding:10px 18px;border-radius:999px;border:1.5px solid #fffdf74d;font-weight:700;font-size:15px;color:#c9d3cd}
+.flow span.on{background:var(--coral);border-color:var(--coral);color:var(--ink-deep)}
+.flow span.past{background:#fffdf71a;color:var(--cream);border-color:transparent}
+.flow i{width:22px;height:1.5px;background:#fffdf74d}
+.queue{margin-top:44px;display:grid;gap:10px;max-width:760px}
+.q{display:grid;grid-template-columns:70px 64px 1fr auto;gap:16px;align-items:center;background:#fffdf70f;border:1px solid #fffdf71f;border-radius:16px;padding:16px 20px;font-size:15px}
+.q b{font:400 20px var(--serif)}
+.q .t{color:#9fb0a7}
+.q .what{color:#dfe6e1}
+@media (max-width:620px){.q{grid-template-columns:auto 1fr;row-gap:6px}.q .what{grid-column:1/-1}}
+.fine-dark{color:#9fb0a7;margin-top:22px;font-family:var(--hand);font-size:24px;color:var(--coral-light)}
+
+/* approval */
+.approval-card{background:var(--cream);border-radius:var(--r);padding:20px;box-shadow:0 20px 50px #18372c1f;max-width:500px;margin-inline:auto;width:100%}
+.approval-card header{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:14px}
+.approval-card header b{font:400 22px var(--serif)}
+.approval-card header small{color:var(--ink-soft)}
+.shots{display:grid;grid-template-columns:2fr 1fr;grid-template-rows:1fr 1fr;gap:8px}
+.shots img{border-radius:14px;width:100%;height:100%;object-fit:cover;aspect-ratio:1}
+.shots img:first-child{grid-row:1/3}
+.choice{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:14px}
+.choice span{text-align:center;padding:13px;border-radius:14px;font-weight:700;font-size:14px}
+.choice span:first-child{background:var(--ink);color:var(--cream)}
+.choice span:last-child{border:1.5px solid var(--line)}
+.aside{margin-top:22px;padding:18px 22px;border-left:3px solid var(--coral);background:var(--cream);border-radius:0 14px 14px 0}
+
+/* busy */
+.busy{position:relative}
+.busy .photo{border-radius:var(--r);overflow:hidden}
+.toast{position:absolute;right:-14px;bottom:28px;background:var(--ink);color:var(--cream);border-radius:18px;padding:16px 20px;box-shadow:0 20px 40px #0004;max-width:290px}
+.toast b{display:block}
+.toast small{color:#c9d3cd}
+@media (max-width:620px){.toast{position:static;margin-top:-30px;margin-left:16px;margin-right:16px}}
+
+/* sources */
+.sources{display:grid;grid-template-columns:1.2fr .8fr;gap:clamp(36px,6vw,90px);align-items:center}
+.src{margin-top:34px;display:grid;gap:12px}
+.src li{display:flex;gap:14px;align-items:center;padding:16px 20px;background:var(--cream);border-radius:16px;font-weight:700}
+.src li svg{width:22px;height:22px;color:var(--leaf);flex:none}
+.save{margin-top:28px;padding:24px;border-radius:var(--r);background:var(--paper-deep)}
+.save .hand{font-family:var(--hand);font-size:28px;line-height:1.15;color:var(--ink)}
+.save p{color:var(--ink-soft);margin-top:8px}
+.sources .photo{border-radius:var(--r);overflow:hidden;max-width:420px;margin-inline:auto}
+@media (max-width:900px){.sources{grid-template-columns:1fr}}
+
+/* aggregators */
+.vs{display:grid;grid-template-columns:1fr 1fr;gap:22px;margin-top:50px}
+.vs article{padding:34px;border-radius:var(--r)}
+.vs article:first-child{border:1.5px solid #fffdf733}
+.vs article:last-child{background:var(--cream);color:var(--ink)}
+.vs h3{margin-bottom:12px}
+.vs p{color:#c9d3cd}
+.vs article:last-child p{color:var(--ink-soft)}
+@media (max-width:760px){.vs{grid-template-columns:1fr}}
+
+/* demo */
+.demo{display:grid;grid-template-columns:.9fr 1.1fr;gap:clamp(30px,5vw,70px);align-items:center}
+.demo-card{background:var(--cream);border-radius:var(--r);padding:26px;box-shadow:0 20px 50px #18372c1f}
+.demo-card header{display:flex;justify-content:space-between;align-items:center}
+.demo-card header b{font:400 26px var(--serif)}
+.track{margin:20px 0 0;display:grid;gap:4px}
+.track li{display:flex;align-items:center;gap:14px;padding:9px 6px;border-radius:12px;color:#18372c66;font-weight:700;transition:color .2s,background .2s}
+.track li span{width:30px;height:30px;border-radius:50%;border:1.5px solid currentColor;display:grid;place-items:center;font-size:13px;flex:none}
+.track li.done{color:var(--ink)}
+.track li.done span{background:var(--ink);border-color:var(--ink);color:var(--cream)}
+.track li.now{color:var(--ink);background:#f6e3bd}
+.track li.now span{background:var(--coral);border-color:var(--coral);color:var(--ink-deep)}
+.demo-card .btn{width:100%;margin-top:18px}
+.demo-status{margin-top:12px;min-height:1.6em;color:var(--ink-soft);font-size:15px}
+@media (max-width:900px){.demo{grid-template-columns:1fr}}
+
+/* launch */
+.launch{counter-reset:l;display:grid;grid-template-columns:repeat(5,1fr);gap:16px;margin-top:50px}
+.launch li{padding:24px 20px;border-radius:20px;background:var(--cream);position:relative}
+.launch li::before{counter-increment:l;content:counter(l);font:400 44px/1 var(--serif);color:var(--coral);display:block;margin-bottom:16px}
+.launch b{display:block;font-size:17px;line-height:1.3}
+.launch p{color:var(--ink-soft);font-size:15px;margin-top:6px}
+@media (max-width:1000px){.launch{grid-template-columns:repeat(2,1fr)}}
+@media (max-width:520px){.launch{grid-template-columns:1fr}}
+
+/* features */
+.feat{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);border:1px solid var(--line);border-radius:var(--r);overflow:hidden;margin-top:50px}
+.feat article{background:var(--paper);padding:30px}
+.feat svg{width:30px;height:30px;color:var(--coral);margin-bottom:18px}
+.feat p{color:var(--ink-soft);margin-top:8px;font-size:16px}
+@media (max-width:900px){.feat{grid-template-columns:1fr 1fr}}
+@media (max-width:600px){.feat{grid-template-columns:1fr}}
+
+/* faq */
+.faq{margin-top:44px;max-width:860px;border-top:1px solid #fffdf733}
+.faq details{border-bottom:1px solid #fffdf733}
+.faq summary{list-style:none;cursor:pointer;display:flex;justify-content:space-between;gap:20px;align-items:center;padding:22px 4px;font:400 clamp(20px,2vw,24px)/1.25 var(--serif)}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"";width:14px;height:14px;border-right:2px solid var(--coral-light);border-bottom:2px solid var(--coral-light);transform:rotate(45deg) translateY(-4px);flex:none;transition:transform .2s}
+.faq details[open] summary::after{transform:rotate(225deg) translateY(-2px)}
+.faq details p{padding:0 4px 24px;color:#c9d3cd;max-width:68ch}
+
+/* final */
+.final{display:grid;grid-template-columns:1.2fr .8fr;gap:clamp(36px,6vw,90px);align-items:center}
+.final .photo{border-radius:var(--r);overflow:hidden;max-width:400px;margin-inline:auto}
+.final .fine{margin-top:16px;font-size:14px;color:var(--ink-soft)}
+@media (max-width:900px){.final{grid-template-columns:1fr}}
+
+/* footer */
+footer{background:var(--ink-deep);color:#c9d3cd;padding:64px 0 calc(40px + env(safe-area-inset-bottom,0px));font-size:15px}
+.foot{display:grid;grid-template-columns:1.3fr 1fr 1fr;gap:40px}
+.foot b{color:var(--cream);display:block;margin-bottom:14px}
+.foot li{margin-top:8px}
+.foot a{text-decoration:none}
+.foot a:hover{color:var(--cream);text-decoration:underline}
+.copy-line{margin-top:48px;padding-top:24px;border-top:1px solid #fffdf71f;font-size:13px;color:#9fb0a7}
+@media (max-width:760px){.foot{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Перейти к содержанию</a>
+
+<header class="top">
+  <div class="wrap">
+    <a class="logo" href="/" aria-label="Vitrina Florista — на главную"><i>VF</i><span>VITRINA<br>FLORISTA</span></a>
+    <nav class="tabs" aria-label="Для кого">
+      <a href="/">Покупателю</a>
+      <a href="/florist" aria-current="page">Флористу</a>
+    </nav>
+    <a class="btn btn-coral" href="https://t.me/vitrinaflorista_help" target="_blank" rel="noopener">Обсудить подключение</a>
+  </div>
+</header>
+
+<main id="main">
+
+<!-- HERO -->
+<section class="hero dark" aria-labelledby="h1">
+  <div class="wrap hero-grid">
+    <div>
+      <span class="note">Витрина вашего магазина в Telegram</span>
+      <h1 id="h1">Пока вы собираете букеты, клиенты сами оформляют и оплачивают заказы</h1>
+      <p class="lead">Каталог, корзина, доставка и оплата напрямую на ваш счёт. Флорист получает одну карточку заказа вместо длинной переписки. Без разработки сайта и без комиссии платформы с продаж.</p>
+      <div class="actions">
+        <a class="btn btn-coral" href="https://t.me/vitrinafloristabot" target="_blank" rel="noopener">Открыть демо-витрину</a>
+        <a class="btn btn-ghost" href="https://t.me/vitrinaflorista_help" target="_blank" rel="noopener">Обсудить подключение</a>
+      </div>
+      <p class="fine">Витрина открывается в Telegram: покупателю ничего не нужно скачивать, если Telegram у него уже есть.</p>
+    </div>
+    <div class="hero-art">
+      <div class="photo"><img src="/img/florist/01-florist-za-stolom.svg" width="800" height="1000" alt="Флорист собирает букет, рядом телефон с новым заказом"></div>
+      <div class="phone" aria-hidden="true">
+        <div class="bar"><b>VF</b>Ваш магазин</div>
+        <div class="prod">
+          <img src="/img/florist/02-buket-pion.svg" width="800" height="800" alt="">
+          <div class="name">Нежный пион</div>
+          <div class="comp">Пионы, эвкалипт, крафт</div>
+          <div class="row"><span class="price">5 200 ₽</span><span class="pill">В корзину</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PAIN -->
+<section aria-labelledby="pain">
+  <div class="wrap split">
+    <div class="copy">
+      <span class="note">Знакомая ситуация</span>
+      <h2 id="pain">Сколько сообщений нужно, чтобы продать один букет?</h2>
+      <p class="lead">Общаться с клиентом — важная часть работы. Но фото, цены, доставка, адрес, открытка, реквизиты и проверка перевода превращаются в долгую переписку на каждый заказ.</p>
+      <p class="lead">Каждая такая цепочка отвлекает от рабочего стола, а в предпраздничный день создаёт риск перепутать адрес или время.</p>
+    </div>
+    <div class="chat" role="img" aria-label="Пример переписки с покупателем: вопросы о букетах, цене, доставке, открытке и оплате переводом">
+      <div class="msg in">Здравствуйте, какие букеты есть сегодня?</div>
+      <div class="msg out media"><img src="/img/florist/katalog-1.svg" width="600" height="600" alt="" loading="lazy"><img src="/img/florist/katalog-2.svg" width="600" height="600" alt="" loading="lazy"><img src="/img/florist/katalog-3.svg" width="600" height="600" alt="" loading="lazy"></div>
+      <div class="msg in">А второй сколько стоит? Доставка включена?</div>
+      <div class="msg out">4 500 ₽, доставка отдельно. Куда везём?</div>
+      <div class="msg in">Ленина 12, кв 45. А открытку подпишете?</div>
+      <div class="msg out">Конечно! Что написать? И вот номер карты для перевода…</div>
+      <div class="msg in">Перевела, проверьте, пришло?</div>
+      <div class="msg in receipt"><img src="/img/florist/04-chek-perevoda.svg" width="600" height="900" alt="" loading="lazy"></div>
+      <span class="more">…и ещё шесть сообщений до конца заказа</span>
+    </div>
+  </div>
+</section>
+
+<!-- CHANGE -->
+<section style="padding-top:0" aria-labelledby="change">
+  <div class="wrap">
+    <span class="note">Что меняется</span>
+    <h2 id="change">От длинной переписки — к одной готовой карточке заказа</h2>
+    <p class="lead">Живое общение остаётся вам. Механический сбор данных для доставки и оплаты берёт на себя витрина.</p>
+    <div class="compare">
+      <div class="before">
+        <h3>Как обычно</h3>
+        <ul>
+          <li>Десяток сообщений на каждый заказ</li>
+          <li>Адрес и текст открытки переписываются на листок</li>
+          <li>Оплату проверяют вручную по скриншоту и мобильному банку</li>
+          <li>Вопросы о доставке и оплате приходят в любое время, даже когда руки заняты</li>
+        </ul>
+      </div>
+      <article class="order" aria-label="Пример карточки заказа в Vitrina Florista">
+        <div class="order-head"><h3>Заказ № 184</h3><span class="badge paid">Оплачено</span></div>
+        <dl>
+          <div><dt>Букет</dt><dd>«Нежный пион» — 5 200 ₽</dd></div>
+          <div><dt>Покупатель</dt><dd>Анна, +7 999 000-00-00</dd></div>
+          <div><dt>Адрес</dt><dd>ул. Ленина, 12, кв. 45</dd></div>
+          <div><dt>Заметка курьеру</dt><dd>После 14:00, не звонить — сюрприз</dd></div>
+          <div><dt>Открытка</dt><dd class="hand">С днём рождения, любимая!</dd></div>
+          <div><dt>Доставка</dt><dd>350 ₽, рассчитана по адресу</dd></div>
+          <div><dt>Оплата</dt><dd>Подтверждена банком</dd></div>
+        </dl>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- BUYER PATH -->
+<section style="background:var(--paper-deep)" aria-labelledby="how-h" id="how">
+  <div class="wrap">
+    <span class="note">Путь покупателя</span>
+    <h2 id="how-h" style="max-width:20ch">Четыре шага от ссылки до оплаченного заказа</h2>
+    <p class="lead">Покупатель оформляет заказ сам, не дожидаясь, пока флорист ответит в чате.</p>
+    <ol class="steps">
+      <li class="step">
+        <div class="phone" aria-hidden="true">
+          <div class="bar"><b>VF</b>Ваш магазин</div>
+          <div class="grid4">
+            <figure><img src="/img/florist/katalog-4.svg" width="600" height="600" alt="" loading="lazy"><figcaption>5 200 ₽</figcaption></figure>
+            <figure><img src="/img/florist/katalog-5.svg" width="600" height="600" alt="" loading="lazy"><figcaption>3 900 ₽</figcaption></figure>
+            <figure><img src="/img/florist/katalog-6.svg" width="600" height="600" alt="" loading="lazy"><figcaption>6 800 ₽</figcaption></figure>
+            <figure><img src="/img/florist/katalog-7.svg" width="600" height="600" alt="" loading="lazy"><figcaption>4 500 ₽</figcaption></figure>
+          </div>
+        </div>
+        <h3>Открывает витрину</h3>
+        <p>По ссылке из профиля, канала, карт или по QR-коду в салоне.</p>
+      </li>
+      <li class="step">
+        <div class="phone" aria-hidden="true">
+          <div class="bar">Корзина</div>
+          <div class="ph-pad">
+            <div class="field"><small>Букет</small>«Нежный пион» · 5 200 ₽</div>
+            <div class="seg"><span>Доставка</span><span>Самовывоз</span></div>
+            <div class="field"><small>Адрес</small>ул. Ленина, 12, кв. 45</div>
+            <div class="sum"><span>Букет</span><span>5 200 ₽</span></div>
+            <div class="sum"><span>Доставка</span><span>350 ₽</span></div>
+            <div class="sum total"><span>Итого</span><span>5 550 ₽</span></div>
+          </div>
+        </div>
+        <h3>Выбирает букет и доставку</h3>
+        <p>Адрес на карте, стоимость доставки считается сразу.</p>
+      </li>
+      <li class="step">
+        <div class="phone" aria-hidden="true">
+          <div class="bar">Оформление</div>
+          <div class="ph-pad">
+            <div class="field"><small>Имя</small>Анна</div>
+            <div class="field"><small>Телефон</small>+7 999 000-00-00</div>
+            <div class="field hand"><small>Текст открытки</small><span>С днём рождения, любимая!</span></div>
+            <div class="field"><small>Заметка курьеру</small>После 14:00, не звонить</div>
+            <div class="cta-mini">Перейти к оплате</div>
+          </div>
+        </div>
+        <h3>Оставляет данные и открытку</h3>
+        <p>Имя, телефон, текст открытки и пожелания ко времени.</p>
+      </li>
+      <li class="step">
+        <div class="phone" aria-hidden="true">
+          <div class="done">
+            <div class="ok"><svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#1f5a3a" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7"/></svg></div>
+            <strong>Оплата прошла</strong>
+            <p>Заказ № 184 передан флористу. Статус заказа придёт в Telegram.</p>
+          </div>
+        </div>
+        <h3>Оплачивает</h3>
+        <p>Картой или через СБП на форме банка магазина. Деньги поступают напрямую на ваш счёт.</p>
+      </li>
+    </ol>
+    <div class="actions"><a class="btn btn-ink" href="https://t.me/vitrinafloristabot" target="_blank" rel="noopener">Открыть демо-витрину</a></div>
+  </div>
+</section>
+
+<!-- FLORIST SIDE -->
+<section class="dark" aria-labelledby="side">
+  <div class="wrap">
+    <span class="note">На стороне магазина</span>
+    <h2 id="side">Вся информация о заказе — в одном окне флориста</h2>
+    <p class="lead">Оплаченный заказ сразу появляется в рабочем экране флориста в Telegram, а бот присылает уведомление. Флорист видит подтверждённую банком оплату и ведёт заказ по статусам одним нажатием.</p>
+    <div class="flow" aria-label="Статусы заказа: оплачено, в сборке, собран, на согласовании, передача, передан">
+      <span class="past">Оплачено</span><i></i><span class="on">В сборке</span><i></i><span>Собран</span><i></i><span>На согласовании</span><i></i><span>Передача</span><i></i><span>Передан</span>
+    </div>
+    <div class="queue" aria-label="Рабочая очередь заказов">
+      <div class="q"><b>№184</b><span class="t">18:00</span><span class="what">«Нежный пион» · ул. Ленина, 12 · открытка есть</span><span class="badge work">В сборке</span></div>
+      <div class="q"><b>№185</b><span class="t">18:30</span><span class="what">«Весенний микс» · самовывоз</span><span class="badge paid">Оплачен</span></div>
+      <div class="q"><b>№186</b><span class="t">19:00</span><span class="what">«Белый сад» · фото отправлено</span><span class="badge" style="background:#fffdf71f;color:var(--cream)">Ждёт согласования</span></div>
+    </div>
+    <p class="fine-dark">Никаких стикеров с адресами и споров о том, оплачена ли доставка.</p>
+  </div>
+</section>
+
+<!-- APPROVAL -->
+<section aria-labelledby="approval-h" id="approval">
+  <div class="wrap split">
+    <div class="approval-card" aria-label="Пример фото-согласования букета">
+      <header><b>Заказ № 184</b><small>фото от флориста</small></header>
+      <div class="shots">
+        <img src="/img/florist/06-buket-v-masterskoy.svg" width="1000" height="750" alt="Готовый букет на столе в мастерской" loading="lazy">
+        <img src="/img/florist/07-buket-sboku.svg" width="800" height="800" alt="Тот же букет сбоку" loading="lazy">
+        <img src="/img/florist/08-otkrytka.svg" width="800" height="800" alt="Подписанная открытка к букету" loading="lazy">
+      </div>
+      <div class="choice" aria-hidden="true"><span>Всё отлично, согласовать</span><span>Отправить на доработку</span></div>
+    </div>
+    <div class="copy">
+      <span class="note">Фото-согласование</span>
+      <h2 id="approval-h">Покупатель видит свой букет до того, как его повезут</h2>
+      <p class="lead">Флорист собирает заказ и отправляет от одного до трёх фото прямо в карточку. Покупатель подтверждает букет или просит доработку с комментарием — без пересылки фото в мессенджерах.</p>
+      <p class="aside">Если покупатель не ответил вовремя, букет считается согласованным автоматически, и заказ не застревает.</p>
+      <div class="actions"><a class="btn btn-ink" href="/foto-soglasovanie-buketa">Подробнее о фото-согласовании</a></div>
+    </div>
+  </div>
+</section>
+
+<!-- BUSY -->
+<section style="background:var(--paper-deep)" aria-labelledby="busy">
+  <div class="wrap split">
+    <div class="copy">
+      <span class="note">Пока вы заняты цветами</span>
+      <h2 id="busy">Вы собираете букеты. Витрина собирает заказы.</h2>
+      <p class="lead">Вечером или в разгар предпраздничного дня покупателю не нужно ждать, пока флорист освободит руки и ответит. Витрина принимает заказ и оплату в любое время, а флорист узнаёт о нём из уведомления.</p>
+    </div>
+    <div class="busy">
+      <div class="photo"><img src="/img/florist/09-ruki-florista.svg" width="1000" height="800" alt="Руки флориста собирают композицию, рядом телефон" loading="lazy"></div>
+      <div class="toast" role="img" aria-label="Уведомление о новом оплаченном заказе"><b>Новый оплаченный заказ № 185</b><small>«Весенний микс» · доставка по адресу</small></div>
+    </div>
+  </div>
+</section>
+
+<!-- SOURCES + QR -->
+<section aria-labelledby="src" id="qr">
+  <div class="wrap sources">
+    <div>
+      <span class="note">Откуда приходят заказы</span>
+      <h2 id="src">Работает там, где вас уже находят покупатели</h2>
+      <p class="lead">Vitrina Florista не приводит новый трафик — она помогает быстрее обслуживать тех, кто уже пишет вам. Поставьте ссылку на витрину туда, где с вами привыкли связываться.</p>
+      <ul class="src">
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/></svg>Шапка профиля в соцсетях</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M21 4L3 11l6 2 2 6 3-4 5 4z"/></svg>Закреп в Telegram-канале</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 21s7-6.2 7-11.5A7 7 0 0 0 5 9.5C5 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>Карточка на Яндекс Картах и 2ГИС</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><path d="M14 14h3v3M21 14v7h-7"/></svg>QR-код на кассе, упаковке и открытке</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M4 5h16v11H9l-5 4z"/></svg>Ответ постоянному клиенту в чате</li>
+      </ul>
+      <div class="save">
+        <p class="hand">«Понравился букет? Сохраните флориста, который его собрал»</p>
+        <p>Положите QR-код на открытку или упаковку. Его отсканирует и покупатель, и получатель — так каждый хороший букет знакомит с вашей витриной ещё одного человека.</p>
+      </div>
+    </div>
+    <div class="photo"><img src="/img/florist/10-qr-na-kasse.svg" width="800" height="1000" alt="Табличка с QR-кодом витрины на кассе цветочного салона" loading="lazy"></div>
+  </div>
+</section>
+
+<!-- AGGREGATORS -->
+<section class="dark" aria-labelledby="agg">
+  <div class="wrap">
+    <span class="note">Про агрегаторы</span>
+    <h2 id="agg">Не вместо Flowwow. Для ваших прямых покупателей.</h2>
+    <p class="lead">Агрегаторы полезны, когда нужно найти нового клиента. Но если покупатель уже знает ваш магазин и пишет напрямую, отдавать процент с продажи незачем.</p>
+    <div class="vs">
+      <article><h3>Flowwow и другие агрегаторы</h3><p>Приводят новых покупателей, которые вас ещё не знают. Берут комиссию с каждого заказа.</p></article>
+      <article><h3>Vitrina Florista</h3><p>Обслуживает ваших постоянных и прямых покупателей. Платформа не берёт комиссию с продаж — работает по подписке. Деньги идут на ваш счёт через эквайринг вашего банка.</p></article>
+    </div>
+  </div>
+</section>
+
+<!-- DEMO -->
+<section aria-labelledby="demo-h" id="demo">
+  <div class="wrap demo">
+    <div>
+      <span class="note">Демо одного заказа</span>
+      <h2 id="demo-h">Проведите один заказ через Vitrina Florista</h2>
+      <p class="lead">Нажимайте кнопку и смотрите, как один заказ проходит весь путь в одной карточке — от выбора букета до передачи получателю.</p>
+    </div>
+    <div class="demo-card">
+      <header><b>Заказ № 184</b><span class="badge paid" id="demoBadge">Готов к демо</span></header>
+      <ol class="track" id="track">
+        <li><span>1</span>Покупатель выбрал букет</li>
+        <li><span>2</span>Оформил заказ</li>
+        <li><span>3</span>Оплатил</li>
+        <li><span>4</span>Флорист получил заказ</li>
+        <li><span>5</span>Собрал букет</li>
+        <li><span>6</span>Отправил фото</li>
+        <li><span>7</span>Покупатель согласовал</li>
+        <li><span>8</span>Заказ передан</li>
+      </ol>
+      <p class="demo-status" id="demoStatus" aria-live="polite"></p>
+      <button class="btn btn-coral" id="demoBtn" type="button">Начать демо</button>
+    </div>
+  </div>
+</section>
+
+<!-- LAUNCH -->
+<section style="background:var(--paper-deep)" aria-labelledby="launch-h" id="launch">
+  <div class="wrap">
+    <span class="note">Подключение</span>
+    <h2 id="launch-h">Запустим витрину вместе. Без программистов.</h2>
+    <p class="lead">Помогаем настроить магазин и загрузить первые букеты, чтобы вы начали принимать заказы сразу после запуска.</p>
+    <ol class="launch">
+      <li><b>Собираем данные магазина</b><p>Адрес, зоны и стоимость доставки, контакты</p></li>
+      <li><b>Загружаем каталог</b><p>Ваши популярные букеты с фото и описанием</p></li>
+      <li><b>Подключаем эквайринг</b><p>Оплата поступает напрямую на счёт магазина</p></li>
+      <li><b>Настраиваем уведомления</b><p>Бот магазина сообщает флористу о новых заказах</p></li>
+      <li><b>Выдаём ссылку и QR</b><p>Для профиля, канала, карт и салона</p></li>
+    </ol>
+    <div class="actions"><a class="btn btn-ink" href="https://t.me/vitrinaflorista_help" target="_blank" rel="noopener">Обсудить запуск магазина</a></div>
+  </div>
+</section>
+
+<!-- FEATURES -->
+<section aria-labelledby="inside">
+  <div class="wrap">
+    <span class="note">Что внутри</span>
+    <h2 id="inside">Всё для приёма, оплаты и доставки цветов</h2>
+    <div class="feat">
+      <article><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="8" height="8" rx="2"/><rect x="13" y="3" width="8" height="8" rx="2"/><rect x="3" y="13" width="8" height="8" rx="2"/><rect x="13" y="13" width="8" height="8" rx="2"/></svg><h3>Каталог букетов</h3><p>Фото и видео, состав и цена. Букет можно скрыть с витрины одним переключателем.</p></article>
+      <article><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 21s7-6.2 7-11.5A7 7 0 0 0 5 9.5C5 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg><h3>Доставка по адресу</h3><p>Подсказки адреса, точка на карте и расчёт стоимости по зонам. Или самовывоз и договорённость.</p></article>
+      <article><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="2.5" y="5" width="19" height="14" rx="3"/><path d="M2.5 10h19M6 15h4"/></svg><h3>Оплата на ваш счёт</h3><p>Картой или через СБП на форме вашего банка. Факт оплаты подтверждает банк, а не скриншот.</p></article>
+      <article><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M7 10h10M7 14h6"/></svg><h3>Открытка и пожелания</h3><p>Текст открытки и заметка курьеру: время, «сюрприз», подъезд.</p></article>
+      <article><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="6" width="18" height="14" rx="3"/><circle cx="12" cy="13" r="3.5"/><path d="M8 6l1.5-2h5L16 6"/></svg><h3>Фото-согласование</h3><p>До трёх фото готового букета и доработка по комментарию покупателя.</p></article>
+      <article><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M6 9a6 6 0 0 1 12 0c0 6 2.5 7.5 2.5 7.5h-17S6 15 6 9z"/><path d="M10 20a2 2 0 0 0 4 0"/></svg><h3>Статусы и уведомления</h3><p>Покупатель и флорист видят один и тот же статус, бот сообщает о каждом шаге. После оплаты — чат по заказу.</p></article>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="dark" aria-labelledby="faq-h" id="faq">
+  <div class="wrap">
+    <span class="note">Вопросы</span>
+    <h2 id="faq-h">Частые вопросы владельцев цветочных магазинов</h2>
+    <div class="faq">
+      <details><summary>Нужен ли покупателю Telegram?</summary><p>Да. Витрина работает внутри Telegram: покупатель открывает её по ссылке и через Telegram получает статусы заказа. Скачивать отдельное приложение не нужно.</p></details>
+      <details><summary>А если моим клиентам проще написать в WhatsApp?</summary><p>Переписка остаётся. Ссылку на витрину можно отправить в том же диалоге тем, кто хочет выбрать и оплатить букет сам, без уточняющих вопросов.</p></details>
+      <details><summary>Вы приводите новых покупателей?</summary><p>Нет. Vitrina Florista — не маркетплейс. Она помогает обслуживать покупателей, которых магазин привлекает сам: через соцсети, карты, рекомендации и офлайн.</p></details>
+      <details><summary>Куда поступают деньги?</summary><p>Напрямую на расчётный счёт магазина через ваш эквайринг. Банк берёт комиссию по вашему договору, платформа — нет: она работает по подписке.</p></details>
+      <details><summary>Кто загружает букеты?</summary><p>При подключении помогаем внести базовый ассортимент. Дальше новые букеты добавляются со смартфона прямо в Telegram.</p></details>
+      <details><summary>Можно ли указать время доставки?</summary><p>Покупатель пишет пожелание ко времени в заметке курьеру, и флорист видит его в карточке заказа.</p></details>
+      <details><summary>Если у нас несколько флористов?</summary><p>Заказы находятся в общей рабочей очереди. Видно, какой заказ новый, какой уже в работе, на каком он этапе и кто с ним работает. Каждый понимает свой следующий шаг.</p></details>
+      <details><summary>Как работает QR-код?</summary><p>QR-код ведёт прямо в витрину вашего магазина. Его можно разместить на карточке к букету, упаковке, визитке или кассе. Человек сканирует код, открывает витрину и сохраняет простой путь к вам на следующий повод.</p></details>
+      <details><summary>А если букет получил не тот, кто его заказывал?</summary><p>Получатель тоже может открыть вашу витрину по QR-коду на открытке или упаковке: получил букет, понравилась работа, сохранил витрину — и в следующий раз может заказать сам.</p></details>
+      <details><summary>Что нужно от меня для подключения?</summary><p>Данные магазина, ассортимент, фотографии и цены. Для приёма оплаты подключается банковская оплата вашего магазина. После настройки у вас появляется собственная витрина и рабочее место для заказов.</p></details>
+      <details><summary>Сколько стоит Vitrina Florista?</summary><p>Платформа работает по подписке и не берёт процент с продаж. Актуальные тарифы расскажем в Telegram: <a href="https://t.me/vitrinaflorista_help" target="_blank" rel="noopener">@vitrinaflorista_help</a>.</p></details>
+    </div>
+  </div>
+</section>
+
+<!-- FINAL -->
+<section aria-labelledby="final">
+  <div class="wrap final">
+    <div>
+      <span class="note">Следующий шаг</span>
+      <h2 id="final">Посмотрите витрину глазами вашего покупателя</h2>
+      <p class="lead">Откройте демо-витрину в Telegram или напишите нам — разберём, как будет выглядеть каталог вашего магазина.</p>
+      <div class="actions">
+        <a class="btn btn-coral" href="https://t.me/vitrinafloristabot" target="_blank" rel="noopener">Открыть демо-витрину</a>
+        <a class="btn btn-ink" href="https://t.me/vitrinaflorista_help" target="_blank" rel="noopener">Обсудить запуск</a>
+      </div>
+      <p class="fine">Без оплаты и обязательств.</p>
+    </div>
+    <div class="photo"><img src="/img/florist/11-vitrina-salona.svg" width="800" height="1000" alt="Вечерняя витрина цветочного салона с QR-кодом на двери" loading="lazy"></div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot">
+      <div>
+        <a class="logo" href="/" style="color:var(--cream)"><i>VF</i><span>VITRINA<br>FLORISTA</span></a>
+        <p style="margin-top:18px;max-width:34ch">Рабочая платформа для цветочного магазина. Россия и страны СНГ.</p>
+      </div>
+      <nav aria-label="О сервисе">
+        <b>О сервисе</b>
+        <ul>
+          <li><a href="/o-vitrina-florista">О Vitrina Florista</a></li>
+          <li><a href="/kak-rabotaet">Как работает</a></li>
+          <li><a href="/dlya-florista">Для флориста</a></li>
+          <li><a href="/zakazy-v-telegram">Заказы через Telegram</a></li>
+          <li><a href="/foto-soglasovanie-buketa">Фото-согласование букета</a></li>
+          <li><a href="/qr-dlya-florista">QR для флориста</a></li>
+        </ul>
+      </nav>
+      <nav aria-label="Документы">
+        <b>Документы и связь</b>
+        <ul>
+          <li><a href="/legal">Реквизиты и правовая информация</a></li>
+          <li><a href="/privacy">Политика обработки данных</a></li>
+          <li><a href="/terms">Пользовательское соглашение</a></li>
+          <li><a href="https://t.me/vitrinaflorista_help" target="_blank" rel="noopener">Написать ассистенту</a></li>
+        </ul>
+      </nav>
+    </div>
+    <p class="copy-line">© 2026 Vitrina Florista</p>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var steps=[
+    'Покупатель открыл витрину и выбрал «Нежный пион».',
+    'Указал адрес, время, текст открытки и заметку курьеру.',
+    'Оплатил картой — банк подтвердил платёж.',
+    'Флористу пришло уведомление, заказ в очереди.',
+    'Флорист собрал букет и отметил «Собран».',
+    'Три фото букета ушли покупателю в карточку заказа.',
+    'Покупатель нажал «Всё отлично, согласовать».',
+    'Курьер передал букет. Покупатель видит статус «Передан».'
+  ];
+  var items=document.querySelectorAll('#track li'),btn=document.getElementById('demoBtn'),
+      st=document.getElementById('demoStatus'),badge=document.getElementById('demoBadge'),i=-1;
+  if(!btn) return;
+  btn.addEventListener('click',function(){
+    if(i>=steps.length-1){i=-1;items.forEach(function(li){li.className=''});st.textContent='';badge.textContent='Готов к демо';btn.textContent='Начать демо';return;}
+    i++;
+    items.forEach(function(li,k){li.className=k<i?'done':(k===i?'now':'')});
+    st.textContent=steps[i];
+    badge.textContent=i<2?'Оформление':(i<7?'В работе':'Передан');
+    btn.textContent=i===steps.length-1?'Пройти ещё раз':'Следующий шаг';
+  });
+})();
+</script>
+</body>
+</html>
